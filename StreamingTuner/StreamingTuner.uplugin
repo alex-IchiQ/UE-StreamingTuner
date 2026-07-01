@@ -1,0 +1,32 @@
+{
+    "FileVersion": 3,
+    "Version": 1,
+    "VersionName": "1.0.0",
+    "FriendlyName": "Streaming Tuner",
+    "Description": "One budget dial - plus full manual control - over Unreal's level streaming console variables. Presets, per-CVar tuning, profile data assets, per-platform overrides and a Blueprint runtime API.",
+    "Category": "Optimization",
+    "CreatedBy": "Aleksey Karpov (IchiQ)",
+    "CreatedByURL": "https://github.com/alex-IchiQ",
+    "DocsURL": "https://github.com/alex-IchiQ/UE-StreamingTuner#readme",
+    "MarketplaceURL": "",
+    "SupportURL": "https://github.com/alex-IchiQ/UE-StreamingTuner/issues",
+    "EngineVersion": "5.8.0",
+    "CanContainContent": false,
+    "IsBetaVersion": false,
+    "IsExperimentalVersion": false,
+    "Installed": false,
+    "Modules": [
+        {
+            "Name": "StreamingTunerRuntime",
+            "Type": "Runtime",
+            "LoadingPhase": "Default",
+            "PlatformAllowList": ["Win64", "Mac"]
+        },
+        {
+            "Name": "StreamingTunerEditor",
+            "Type": "Editor",
+            "LoadingPhase": "PostEngineInit",
+            "PlatformAllowList": ["Win64", "Mac"]
+        }
+    ]
+}

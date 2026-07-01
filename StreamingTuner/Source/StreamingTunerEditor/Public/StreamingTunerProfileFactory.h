@@ -1,0 +1,18 @@
+// Copyright (c) 2026 Aleksey Karpov (IchiQ). All Rights Reserved.
+
+#pragma once
+
+#include "CoreMinimal.h"
+#include "Factories/Factory.h"
+#include "StreamingTunerProfileFactory.generated.h"
+
+UCLASS()
+class UStreamingTunerProfileFactory : public UFactory
+{
+	GENERATED_BODY()
+
+public:
+	UStreamingTunerProfileFactory();
+	
+	virtual UObject* FactoryCreateNew(UClass* InClass, UObject* InParent, FName InName, EObjectFlags Flags, UObject* Context, FFeedbackContext* Warn) override;
+};
