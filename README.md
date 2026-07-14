@@ -19,6 +19,8 @@
 
 ---
 
+If you want to support me 👉 **[Buy on Unreal Engine Marketplace / Fab](https://www.fab.com/listings/94a25b92-7308-4347-8c6b-e5a27d5d6e82)**
+
 ## Overview
 
 Level streaming in Unreal is governed by a scatter of console variables — how many
@@ -134,7 +136,7 @@ and reproduction steps.
 
 ## License
 
-See [`LICENSE`](LICENSE).
+See [`LICENSE`](LICENSE.md).
 
 ## Author
 
